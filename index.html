@@ -32,13 +32,29 @@
                 bottom: 10%;">
                 <div class="content row col s12 centralize">
                     <div class="col s5">
-                        <h2 style="font-weight:bold"> LENDA DA IARA</h2>
+                        <h2 class="text-accent-1"style="font-weight:bold"> LENDA DA IARA</h2>
                         <div class="text-block">
                             Iara é uma personagem do folclore brasileiro, ela também é conhecida como a “mãe das águas”. De acordo com a lenda, de origem
                             indígena, Iara é uma linda sereia: ela tem corpo de mulher da cintura para cima e de peixe da
                             cintura para baixo.
+                            
 
                         </div>
+
+
+  <!-- Modal Trigger -->
+  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a>
+  
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal modal-fixed-footer">
+      <div class="modal-content">
+            <iframe class="centralize" width="560" height="315" src="https://www.youtube.com/embed/szBHuCGojVs" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Fechar</a>
+      </div>
+    </div>
+            
                     </div>
     </section>
     <!-- <section>
@@ -75,10 +91,8 @@
 
 
     <script src="js/jquery-3.2.1.min.js"></script>
-    <script>
-        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
-
-    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <script type="text/javascript" src="js/modal.js"></script>      
     <script src="js/TweenMax.min.js"></script>
     <script src="js/TimelineMax.min.js"></script>
     <script src="js/plugins/CSSPlugin.min.js"></script>
@@ -87,6 +101,7 @@
     <script src="js/turn.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
@@ -106,6 +121,7 @@
         ga('send', 'pageview');
 
     </script>
+
 </body>
 
 </html>
