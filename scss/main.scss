@@ -55,81 +55,24 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    background: #000;
-  }
-  
-  main {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    height: 100vh;
-  }
-  
-  
-  .content {
-    display: flex;
-    flex: 1;
-    position: relative;
-  }
-  
-  .text-container {  
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .text-block {
-    position: relative;
-    width: 100%;
-    color: #fff;
-    font-size: 1.2em;
-    line-height: 1.5;
-    font-weight: 700;  
-  }
-  
-  .text-value {
-    color: #fff;
-    padding: 0 0;
-  }
-  
-  #svg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: visible;  
-    pointer-events: none;
-  }
-  
-  .arrow-path,
-  .circle-path {
-    fill: none;
-    stroke-miterlimit: 10;
-    stroke-width: 4;
-    stroke: #00ffe0;
-    stroke-linecap: round;
-    stroke-linejoin: round;  
-    visibility: hidden;
-  }
-  .img{
-      width:100%
-  }
-  
-  
-  
 
 
 
 
+.background {
+    position:absolute
+}
+.arrow-1, .arrow3{
+    opacity:0
+}
 
+.section-2{
+    .cls-1{fill:#2a350b}.cls-2{fill:#eab200}
+}
+
+.section-3{
+    .cls-1{fill:#2a350b}.cls-2{fill:#eab200}
+}
 
 
 
@@ -202,11 +145,6 @@ textarea {
     *zoom: 1;
 }
 
-.centralize{
-    float: none !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-}
 /* ==========================================================================
    Print styles
    ========================================================================== */
